@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "HTML",
+        "description": "Markup Language",
+         "para": "HTML (HyperText Markup Language) is the standard language used to create and design the structure of web pages. It uses a system of tags and elements to define content like headings, paragraphs, links, images, tables, and forms. HTML is not a programming language—it's a markup language, which means it tells the browser how to display text, multimedia, and layout on the screen. It forms the backbone of all websites, often working together with CSS (for styling) and JavaScript (for interactivity).",
+        "path": "./src/assets/assets/html.svg"
+    },
+    {
+        "id": 2,
+        "name": "CSS",
+        "description": "Cascading Style Sheet",
+        "para": "CSS (Cascading Style Sheets) is a stylesheet language used to control the appearance and layout of HTML elements on a web page. While HTML structures the content, CSS styles it—by defining colors, fonts, spacing, positioning, and responsiveness. CSS allows developers to apply styles in three ways:Inline – directly within an HTML element.Internal – within a <style> tag inside the <head> of an HTML document.External – via a separate .css file linked to the HTML.",
+        "path":"./src/assets/assets/css.svg"
+    },
+    {
+        "id": 3,
+        "name": "Java Script",
+        "description": "Programming Language",
+        "para": "JavaScript (JS) is a high-level, dynamic, and interpreted programming language primarily used to create interactive behavior on websites. It is one of the core technologies of the web, alongside HTML and CSS.Key Features:-> Client-Side Scripting: Runs in the browser to enhance user experience without reloading pages.-> Interpreted Language: Doesn't need to be compiled; runs directly in the browser or a JS engine.-> Event-Driven: Can respond to user interactions like clicks, input, and keypresses.-> Object-Oriented & Functional: Supports object-oriented and functional programming styles.-> Asynchronous Programming: Uses callbacks, promises, and async/await for non-blocking operations.",
+        "path":"./src/assets/assets/js.svg"
+    },
+    {
+        "id": 4,
+        "name": "XML",
+        "description": "Extensible Markup Language",
+        "para": "XML is a markup language used to store, structure, and transport data in a format that is both human-readable and machine-readable.",
+        "path": "./src/assets/assets/xml.png"
+    },
+    {
+        "id": 5, 
+        "name": "React",
+        "description": "Javascript Framework",
+        "para": "React is a JavaScript library developed by Meta (formerly Facebook) for building user interfaces, especially for single-page applications (SPAs). It allows developers to create reusable UI components and manage complex user interactions efficiently.",
+        "path": "./src/assets/assets/react.svg"
+    },
+    {
+        "id": 6,
+        "name": "React Hook Form",
+        "description": "Form Management & Validation Library",
+        "para": "React Hook Form (RHF) is a lightweight, performant library for managing forms in React using React Hooks. It simplifies form handling, including validation, input state tracking, and submission, with minimal re-renders.",
+        "path": "./src/assets/assets/reactHookForm.png"
+    }
+]

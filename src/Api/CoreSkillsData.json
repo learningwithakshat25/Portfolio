@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Analytical Skills",
+        "path": "./src/assets/assets/analyticalSkill.png"
+    },
+    {
+        "name": "Logical Reasoning",
+        "path": "./src/assets/assets/logical.png"
+    },
+    {
+        "name": "Problem Solving",
+        "path": "./src/assets/assets/problemSolving.png"
+    },
+    {
+        "name": "Critical Thinking",
+        "path": "./src/assets/assets/criticalThinking.png"
+    },
+    {
+        "name": "Adaptability",
+        "path": "./src/assets/assets/adaptability.jpeg"
+    },
+    {
+        "name": "Design & Development",
+        "path": "./src/assets/assets/design & development.png"
+    }
+]

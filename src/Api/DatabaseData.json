@@ -1,0 +1,14 @@
+[
+    {
+        "name": "MongoDB",
+        "description": "NoSql Database",
+        "para": "MongoDB is a NoSQL, document-oriented database designed for scalability, performance, and ease of development. Instead of storing data in rows and tables (like in relational databases), MongoDB stores data in JSON-like documents.",
+        "path": "./src/assets/assets/mongodb.svg"
+    },
+    {
+        "name": "Mongoose",
+        "description": "MongoDB ODM Library",
+        "para": "Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js. It provides a structured and easy way to interact with MongoDB databases using JavaScript by defining schemas and models.",
+        "path": "./src/assets/assets/mongoose.png"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Node.js",
+        "description": "Javascript Runtime",
+        "para": "Node.js is an open-source, cross-platform JavaScript runtime environment that allows developers to run JavaScript code outside of a web browser — typically on the server side.",
+        "path": "./src/assets/assets/node.svg"
+    },
+    {
+        "name": "Express",
+        "description": "Web FrameWork",
+        "para": "Express.js (or simply Express) is a minimal and flexible Node.js web application framework that provides a robust set of features to build web and mobile applications.It simplifies the process of building server-side logic, handling HTTP requests and responses, and creating RESTful APIs.",
+        "path": "./src/assets/assets/express.png"
+    },
+    {
+        "name":"Rest Api",
+        "description": "Api Architecture",
+        "para": "A REST API (Representational State Transfer Application Programming Interface) is a set of rules and conventions for building and interacting with web services. It allows clients (like web browsers or mobile apps) to communicate with servers using HTTP methods (GET, POST, PUT, DELETE, etc.). REST is stateless and uses standard HTTP protocols for communication.",
+        "path": "./src/assets/assets/restApi.png"
+    },
+    {
+        "name": "Json Web Token",
+        "description": "Authentication Standard",
+        "para": "JWT (JSON Web Token) is a compact, URL-safe method for securely transmitting information between parties as a JSON object. It is commonly used for authentication and authorization in web applications.",
+        "path": "./src/assets/assets/jwt.png"
+    }
+]

@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+*{
+    font-family:"Sansation", sans-serif;
+    scroll-behavior: smooth;
+}
+.active{
+    color: #27E0B3;
+}
