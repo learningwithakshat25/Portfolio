@@ -16,6 +16,7 @@ const Theme = ({children}) => {
 
     const toggle = ()=>{
         setTheme(theme === "light" ? 'dark' : 'light');
+        console.log('click');
         
     }
 
