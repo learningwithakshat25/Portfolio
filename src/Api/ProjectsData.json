@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "World Atlas",
+        "img": "./src/assets/assets/WorldAtlas.png",
+        "vercel": "https://learningwithakshat25.github.io/WorldAtlas/",
+        "git": "https://github.com/learningwithakshat25/WorldAtlas"
+    },
+    {
+        "id": 2,
+        "name": "Microsoft-Web",
+        "img": "./src/assets/assets/Microsoft.png",
+        "vercel": "https://learningwithakshat25.github.io/Microsoft-clone/",
+        "git": "https://github.com/learningwithakshat25/Microsoft-clone"
+    },
+    {
+        "id": 3,
+        "name": "iBlog",
+        "img": "./src/assets/assets/iBlog.png",
+        "vercel": "https://learningwithakshat25.github.io/iBlog/",
+        "git": "https://github.com/learningwithakshat25/iBlog"
+    }
+]

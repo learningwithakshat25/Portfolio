@@ -65,6 +65,17 @@ const Header = () => {
             <li className='cursor-pointer'>
               <Link
               activeClass="active"
+              to="Projects"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              Projects
+            </Link>
+            </li>
+            <li className='cursor-pointer'>
+              <Link
+              activeClass="active"
               to="Certificats"
               spy={true}
               smooth={true}
@@ -73,11 +84,10 @@ const Header = () => {
               Certificats
             </Link>
             </li>
-            <NavLink to='/about'><li className='cursor-pointer'>About Me</li></NavLink>
-          </ul>
+            </ul>
 
           <div className="button font-semibold flex flex-row gap-10  md:gap-14 items-center justify-center">
-          <div id='spinner'  onClick={toggle} className={`theme cursor-pointer`}>
+          <div  onClick={toggle} className={`theme cursor-pointer`}>
             {theme === 'light' ? <i class="fa-solid fa-moon text-2xl"></i> : <i class="fa-solid fa-sun text-2xl"></i>}
           </div>
             <button onClick={handleClick} className='bg-[#27E0B3] dark:text-[#000000] cursor-pointer p-2 md:p-3 rounded-md'>Say Hello</button>

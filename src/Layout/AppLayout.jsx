@@ -6,7 +6,7 @@ import { Outlet } from 'react-router-dom'
 const AppLayout = () => {
   return (
     <>
-    <div className='bg-[white] dark:bg-gradient-to-b dark:from-gray-900 dark:to-black dark:text-white'>
+    <div className='bg-white dark:bg-gradient-to-b dark:from-gray-900 dark:to-black dark:text-white'>
     <Header/>
     <div className="outlet w-screen  container mx-auto p-4">
     <Outlet/>

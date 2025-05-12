@@ -9,7 +9,7 @@ import CoreSkills from '../Pages/CoreSkills'
 import Qualification from '../Pages/Qualification'
 import Experiences from '../Pages/Experiences'
 import Certificats from '../Pages/Certificats'
-import About from '../Pages/About'
+import Projects from '../Pages/Projects'
 
 const Bundler = () => {
   return (
@@ -24,8 +24,8 @@ const Bundler = () => {
     <CoreSkills/>
     <Qualification/>
     <Experiences/>
+    <Projects/>
     <Certificats/>
-    <About/>
     </div>
     </>
   )

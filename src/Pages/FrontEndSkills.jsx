@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import FrontEndData from '../Api/FrontEndData.json';
 import FrontendSkillsModal from '../Modal/FrontendSkillsModal';
 

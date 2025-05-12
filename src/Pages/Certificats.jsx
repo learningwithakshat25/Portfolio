@@ -6,7 +6,7 @@ const Certificats = () => {
   return (
     <div id='Certificats' className='w-full h-full flex flex-col gap-10'>
         <h1 className='text-4xl text-center'>Certificats</h1>
-        <div className="main w-full h-full flex flex-row flex-wrap gap-10">
+        <div className="main w-full h-full flex flex-row flex-wrap gap-10 items-center justify-start">
             {CertificatsData.map((item)=>{
                 return <>
                 <CertificatsModal key={item.id} item={item} />
