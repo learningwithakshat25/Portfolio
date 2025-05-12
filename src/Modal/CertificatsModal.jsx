@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
-import pdf from '../assets/CERT_Akshat.pdf'
-
+import pdf from '../../public/CERT_Akshat.pdf';
 
 const CertificatsModal = (props) => {
   const [open, setopen] = useState(false);
