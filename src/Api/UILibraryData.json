@@ -4,13 +4,13 @@
         "name":"Tailwind CSS",
         "description": "CSS Framework",
         "para": "Tailwind CSS is a modern utility-first CSS framework that allows you to style your HTML by applying small, reusable utility classes directly in your markup.",
-        "path": "./src/assets/assets/tailwindCss.svg"
+        "path": "/tailwindCss.svg"
     },
     {
         "id": 2,
         "name": "Bootstrap",
         "description":"CSS Framework",
         "para": "Bootstrap is a popular open-source front-end framework developed by Twitter for designing responsive and mobile-first websites quickly and efficiently. ",
-        "path": "./src/assets/assets/bootstrap.svg"
+        "path": "/bootstrap.svg"
     }
 ]

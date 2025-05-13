@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-// import FrontendModal from '../ModalApi/FrontendModal.json'
 
 const FrontendSkillsModal = (props) => {
   const [close, setclose] = useState(false);

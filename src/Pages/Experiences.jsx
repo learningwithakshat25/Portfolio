@@ -1,6 +1,4 @@
 import React from 'react'
-import exp1 from '../assets/assets/exp1rbg.png'
-import exp2 from '../assets/assets/exp3.png'
 
 const Experiences = () => {
   return (
@@ -30,7 +28,7 @@ const Experiences = () => {
           </div>
       </div>
         <div className="right h-full w-full md:w-1/2 flex items-center justify-end">
-          <img className='h-full md:h-[500px]' src={exp1} alt="" />
+          <img className='h-full md:h-[500px]' src='/exp1rbg.png' alt="" />
         </div>
         </div>
       {/* Experience 2nd */}
@@ -50,7 +48,7 @@ const Experiences = () => {
           </div>
         </div>
       <div className="right h-full w-full md:w-1/2 flex items-center justify-center md:justify-start bg-transparent">
-        <img src={exp2} alt="" />
+        <img src='/exp3.png' alt="" />
       </div>
       </div>
     </div>

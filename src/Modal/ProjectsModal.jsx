@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import git from '../assets/assets/github.svg'
 
 const ProjectsModal = (props) => {
     const [open, setopen] = useState(false);
@@ -18,7 +17,7 @@ const ProjectsModal = (props) => {
             <a target='_blank' href={props.item.vercel}><h3>Live Preview</h3></a>
          </div>  
             <div className="right flex items-center justify-center">
-                <a target='_blank' href={props.item.git}><img className='bg-white p-1 rounded-md' src={git} alt="" /></a>
+                <a target='_blank' href={props.item.git}><img className='bg-white rounded-md p-1' src="/github.svg" alt="" /></a>
             </div>
           </div>
 

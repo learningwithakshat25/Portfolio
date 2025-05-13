@@ -3,24 +3,24 @@
         "name": "Git",
         "description": "Version control System",
         "para": "Git is a free, open-source, and distributed version control system used to track changes in source code during software development. It allows multiple developers to collaborate efficiently on a project without overwriting each other's work. Created by Linus Torvalds in 2005 (the creator of Linux), Git is now the most widely used version control system in the world.",
-        "path": "./src/assets/assets/gitvc.svg"
+        "path": "/gitvc.svg"
     },
     {
         "name": "GitHub",
         "description": "Code Hosting Platform",
         "para": "GitHub is a web-based platform that hosts Git repositories and provides tools for version control, collaboration, and project management for developers. It’s built on top of Git and is the most popular platform for open-source and private code hosting.",
-        "path": "./src/assets/assets/GithubM.svg"
+        "path": "/GithubM.svg"
     },
     {
         "name": "Vercel",
         "description": "Hosting Platform",
         "para": "Vercel is a cloud platform for deploying frontend web applications quickly and easily. It is optimized for frameworks like Next.js, but also supports others like React, Vue, Angular, Svelte, and even static HTML/CSS.",
-        "path": "./src/assets/assets/vercel.png"
+        "path": "/vercel.png"
     },
     {
         "name": "Postman",
         "description": "Api Testing Tool",
         "para": "Postman is a collaboration platform and tool for API development. It helps developers build, test, debug, document, and monitor APIs efficiently through an easy-to-use graphical user interface (GUI). It is especially popular for working with RESTful APIs, but also supports GraphQL, SOAP, and WebSocket.",
-        "path": "./src/assets/assets/postman.svg"
+        "path": "/postman.svg"
     }
 ]

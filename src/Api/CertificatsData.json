@@ -2,13 +2,13 @@
     {
         "id":1,
         "path": "/CERT_Akshat.pdf",
-        "img": "./src/assets/assets/PDW.png",
+        "img": "/PDW.png",
         "name": "CERT_Akshat.pdf"
     },
     {
         "id": 2,
         "path": "/IBM.pdf",
-        "img":"./src/assets/assets/IBMimg.png",
+        "img":"/IBMimg.png",
         "name": "IBM_Akshat.pdf"
 
     }

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import TypeEffect from '../Component/TypeEffect'
-import Pdf from '../assets/Akshat_Mittal_Resume.pdf'
+
 
 
 const Hero = () => {
@@ -16,7 +16,7 @@ const Hero = () => {
       <TypeEffect/>
       <p className='text-lg md:text-md md:w-[500px] text-center'>I am passoniate in building responsive, userfriendly web applications using frontend technologies like HTML, CSS, Javascript, Bootstrap, Tailwind CSS and Framework like React Js.</p>
       <div className="button flex flex-col gap-5 items-center justify-center">
-      <button className='bg-[#27E0B3] dark:text-[#000000] p-3 rounded-md font-semibold px-5 text-lg shadow-black shadow hover:scale-105'><a download={filename} href={Pdf}>Download Resume</a></button>
+      <button className='bg-[#27E0B3] dark:text-[#000000] p-3 rounded-md font-semibold px-5 text-lg shadow-black shadow hover:scale-105'><a download='Akshat_Mittal_Resume' href='/Akshat_Mittal_Resume.pdf'>Download Resume</a></button>
       <div className="links flex flex-row items-center justify-center gap-5">
       <a target='blank' href="https://www.linkedin.com/in/akshatmittal2004/"><i class="fa-brands fa-linkedin text-3xl cursor-pointer relative"></i></a>
       <a target='blank' href="https://github.com/learningwithakshat25"><i class="fa-brands fa-github text-3xl cursor-pointer"></i></a>
