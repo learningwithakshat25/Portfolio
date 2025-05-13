@@ -129,6 +129,17 @@ const Header = () => {
               Experiences
             </Link>
             </li>
+           <li className='cursor-pointer'>
+              <Link
+              activeClass="active"
+              to="Projects"
+              spy={true}
+              smooth={true}
+              duration={500}
+            >
+              Projects
+            </Link>
+            </li>
             <li className='cursor-pointer'>
               <Link
               activeClass="active"
@@ -140,9 +151,7 @@ const Header = () => {
               Certificats
             </Link>
             </li>
-         <NavLink to='/about' className='cursor-pointer'>
-           <li>About me</li>
-         </NavLink>
+      
         </ul>
       }
     </>
