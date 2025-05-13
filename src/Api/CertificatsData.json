@@ -1,15 +1,15 @@
 [
     {
         "id":1,
-        "path": "../../public/CERT_Akshat.pdf",
+        "path": "/CERT_Akshat.pdf",
         "img": "./src/assets/assets/PDW.png",
-        "name": "CERT_Akshat"
+        "name": "CERT_Akshat.pdf"
     },
     {
         "id": 2,
-        "path": "../../public/CERT_Akshat.pdf",
+        "path": "/IBM.pdf",
         "img":"./src/assets/assets/IBMimg.png",
-        "name": "IBM_Akshat"
+        "name": "IBM_Akshat.pdf"
 
     }
 ]

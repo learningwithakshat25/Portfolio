@@ -10,23 +10,25 @@ import Qualification from '../Pages/Qualification'
 import Experiences from '../Pages/Experiences'
 import Certificats from '../Pages/Certificats'
 import Projects from '../Pages/Projects'
+import Thanks from '../Component/Thanks'
 
 const Bundler = () => {
   return (
     <>
-    <Hero/>
-    <div className="main flex flex-col gap-10">
-    <FrontEndSkills/>
-    <UILibrary/>
-    <BackendSkills/>
-    <DatabaseSkills/>
-    <DevopsSkills/>
-    <CoreSkills/>
-    <Qualification/>
-    <Experiences/>
-    <Projects/>
-    <Certificats/>
-    </div>
+      <Hero />
+      <div className="main flex flex-col gap-10">
+        <Thanks />
+        <FrontEndSkills />
+        <UILibrary />
+        <BackendSkills />
+        <DatabaseSkills />
+        <DevopsSkills />
+        <CoreSkills />
+        <Qualification />
+        <Experiences />
+        <Projects />
+        <Certificats />
+      </div>
     </>
   )
 }

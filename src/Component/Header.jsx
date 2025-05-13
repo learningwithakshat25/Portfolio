@@ -15,13 +15,10 @@ const Header = () => {
   };
   const openClick = () => {
     setopen(!open);
+    console.log('cc');
+    
   }
 
-  function toggleSpin() {
-  const spinner = document.getElementById('spinner');
-  spinner.classList.toggle('hidden');
-  spinner.classList.toggle('animate-spin');
-}
   return (
     <>
       <div className="main w-full h-fit backdrop-blur-lg bg-transparent sticky top-0">
@@ -97,9 +94,9 @@ const Header = () => {
           </div>
         </div>
       </div>
-      {open &&
-        <ul onClick={openClick} className='md:hidden flex flex-col gap-10 font-semibold absolute top-16 left-0  p-3 items-center justify-center w-full h-fit backdrop-blur-lg bg-transparent'>
-           <li className='cursor-pointer'>
+      {open && 
+        <ul className='md:hidden flex flex-col gap-10 font-semibold absolute top-16 left-0  p-3 items-center justify-center w-full h-fit backdrop-blur-lg bg-transparent'>
+           <li onClick={openClick} className='cursor-pointer'>
               <Link
               activeClass="active"
               to="Skills"
