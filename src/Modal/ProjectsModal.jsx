@@ -8,7 +8,7 @@ const ProjectsModal = (props) => {
   
     return (
       <>
-        <div  key={props.item.id} className="box w-full h-60 md:w-80 flex flex-col gap-5 p-3 justify-between shadow shadow-black rounded-md bg-gray-50 dark:bg-[#171717] dark:text-white cursor-pointer hover:scale-105 ">
+        <div  key={props.item.id} className="box w-full h-60 md:w-80 flex flex-col gap-5 p-3 justify-between shadow shadow-black rounded-md bg-gray-50 dark:bg-[#171717] dark:active:bg-gray-950 active:bg-green-200 dark:text-white cursor-pointer hover:scale-105 ">
           <img onClick={openCloseModal} key={props.item.id} src={props.item.img} alt="" />
           <h1 className='font-semibold'>{props.item.name}</h1>
           <div className="lower flex flex-row items-center justify-between">

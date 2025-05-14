@@ -18,7 +18,7 @@ const Thanks = () => {
             <p className="mb-4">Thanks For Visit my Portfolio</p>
             <button
               onClick={() => setShowPopup(false)}
-              className="px-4 py-2 bg-[#27E0B3] text-black rounded hover:bg-[#27e0b2cc] transition font-semibold"
+              className="px-4 py-2 bg-[#27E0B3] active:bg-[#8bfcdf] text-black rounded hover:bg-[#27e0b2cc] transition font-semibold"
             >
               Close
             </button>

@@ -8,7 +8,7 @@ const UILibraryModal = (props) => {
 
     return (
         <>
-            <div onClick={openCloseModal} className='w-full flex flex-row items-center md:justify-center gap-5 shadow-black shadow md:w-fit h-fit p-3 rounded-md dark:bg-[#171717] dark:text-white cursor-pointer hover:scale-105  '>
+            <div onClick={openCloseModal} className='w-full flex flex-row items-center md:justify-center gap-5 shadow-black shadow md:w-fit h-fit p-3 rounded-md active:bg-green-200 dark:bg-[#171717] dark:active:bg-gray-950 dark:text-white cursor-pointer hover:scale-105  '>
                 <div key={props.item.id} className="left">
                     <img className='h-12 bg-white p-1 rounded-md' src={props.item.path} alt="" />
                 </div>

@@ -8,7 +8,7 @@ const CoreSkills = () => {
         <div className="CoreSkills flex-wrap flex flex-row gap-5 items-center justify-start ">
                 {CoreSkillsData.map((e,id)=>{
                   return <>
-              <div className='w-full flex flex-row items-center md:justify-center gap-5 shadow-black shadow md:w-fit h-fit p-3 rounded-md dark:bg-[#171717] dark:text-white hover:scale-105  '>
+              <div className='w-full flex flex-row items-center md:justify-center gap-5 shadow-black shadow md:w-fit h-fit p-3 rounded-md  dark:bg-[#171717] dark:text-white hover:scale-105  '>
                 <div key={id} className="left">
                 <img className='h-12 bg-white p-1 rounded-md' src={e.path} alt="" />
                 </div>

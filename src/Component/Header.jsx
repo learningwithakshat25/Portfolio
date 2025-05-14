@@ -87,7 +87,7 @@ const Header = () => {
           <div  onClick={toggle} className={`theme cursor-pointer`}>
             {theme === 'light' ? <i class="fa-solid fa-moon text-2xl"></i> : <i class="fa-solid fa-sun text-2xl"></i>}
           </div>
-            <button onClick={handleClick} className='bg-[#27E0B3] dark:text-[#000000] cursor-pointer p-2 md:p-3 rounded-md'>Say Hello</button>
+            <button onClick={handleClick} className='bg-[#27E0B3] active:bg-[#8bfcdf] dark:text-[#000000] cursor-pointer p-2 md:p-3 rounded-md'>Say Hello</button>
           </div>
           <div onClick={openClick} className="hamberger md:hidden">
             {open ? <i class="fa-solid fa-xmark text-2xl"></i> : <i class="fa-solid fa-bars hidden text-2xl"></i>}

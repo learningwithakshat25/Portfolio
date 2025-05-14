@@ -10,7 +10,7 @@ const FrontendSkillsModal = (props) => {
 
   return (
     <>
-      <div key={props.id} onClick={openCloseModal} className='flex flex-row items-center md:justify-center gap-5 shadow-black shadow w-full md:w-fit h-fit p-3 rounded-md dark:bg-[#171717] dark:text-white cursor-pointer hover:scale-105 '>
+      <div key={props.id} onClick={openCloseModal} className='flex flex-row items-center md:justify-center gap-5 shadow-black shadow w-full md:w-fit h-fit p-3 rounded-md dark:bg-[#171717] dark:text-white cursor-pointer hover:scale-105 active:bg-green-200 dark:active:bg-gray-950 '>
         <div key={props.id} className="left">
           <img className='h-12 bg-white p-1 rounded-md' src={props.item.path} alt="" />
         </div>

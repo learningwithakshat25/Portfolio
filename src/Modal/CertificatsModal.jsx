@@ -9,7 +9,7 @@ const CertificatsModal = (props) => {
 
   return (
     <>
-      <div  key={props.item.id} className="box w-full md:w-80 flex flex-col gap-5 p-3 shadow shadow-black rounded-md bg-gray-50 dark:bg-[#171717] dark:text-white cursor-pointer hover:scale-105 ">
+      <div  key={props.item.id} className="box w-full md:w-80 flex flex-col gap-5 p-3 shadow shadow-black rounded-md bg-gray-50 dark:bg-[#171717] active:bg-green-200 dark:active:bg-gray-950 dark:text-white cursor-pointer hover:scale-105 ">
         <img onClick={openCloseModal} key={props.item.id} src={props.item.img} alt="" />
         <button className='bg-[#27E0B3] active:bg-[#8bfcdf] text-[#000000] rounded-md p-2 w-full font-semibold cursor-pointer hover:scale-105'><a href={props.item.path} download={props.item.name}>Download</a></button>
       </div>
