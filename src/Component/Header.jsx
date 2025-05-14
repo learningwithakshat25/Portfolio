@@ -15,7 +15,7 @@ const Header = () => {
   };
   const openClick = () => {
     setopen(!open);
-    console.log('cc');
+    console.log('click');
     
   }
 
@@ -95,9 +95,9 @@ const Header = () => {
         </div>
       </div>
       {open && 
-        <ul className='md:hidden flex flex-col gap-10 font-semibold absolute top-16 left-0  p-3 items-center justify-center w-full h-fit backdrop-blur-lg bg-transparent'>
-           <li onClick={openClick} className='cursor-pointer'>
-              <Link
+        <ul className='md:hidden flex flex-col gap-10 font-semibold absolute top-16 left-0  p-3 items-center justify-center w-full h-fit inset-0 z-50 backdrop-blur-lg bg-transparent'>
+           <li className='cursor-pointer'>
+              <Link onClick={openClick}
               activeClass="active"
               to="Skills"
               spy={true}
@@ -108,7 +108,7 @@ const Header = () => {
             </Link>
             </li>
             <li className='cursor-pointer'>
-              <Link
+              <Link onClick={openClick}
               activeClass="active"
               to="Qualifications"
               spy={true}
@@ -119,7 +119,7 @@ const Header = () => {
             </Link>
             </li>
             <li className='cursor-pointer'>
-              <Link
+              <Link onClick={openClick}
               activeClass="active"
               to="Experiences"
               spy={true}
@@ -130,7 +130,7 @@ const Header = () => {
             </Link>
             </li>
            <li className='cursor-pointer'>
-              <Link
+              <Link onClick={openClick}
               activeClass="active"
               to="Projects"
               spy={true}
@@ -141,7 +141,7 @@ const Header = () => {
             </Link>
             </li>
             <li className='cursor-pointer'>
-              <Link
+              <Link onClick={openClick}
               activeClass="active"
               to="Certificats"
               spy={true}
