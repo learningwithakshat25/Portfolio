@@ -21,7 +21,7 @@ const Qualification = () => {
         <div className="inter flex flex-row dark:bg-[#171717] dark:text-white p-4 rounded-md gap-10 w-full md:w-fit shadow-black shadow">
             <div className="left flex flex-col gap-2">
             <h1 className='font-medium text-xl'>Mahatma Memorial Inter College.
-            <p className='font-medium text-lg'>UP Borad (XII), Science</p>
+            <p className='font-medium text-lg'>UP Borad (X), Science</p>
             </h1>
             <p>Lucknow, Uttar-Pradesh</p>
             <p>Grade - 74%</p>
