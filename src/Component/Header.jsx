@@ -95,7 +95,7 @@ const Header = () => {
         </div>
       </div>
       {open && 
-        <ul className='md:hidden flex flex-col gap-10 font-semibold absolute top-16 left-0  p-3 items-center justify-center w-full h-fit inset-0 z-50 backdrop-blur-lg bg-transparent'>
+        <ul className='md:hidden flex flex-col gap-10 font-semibold fixed top-16 p-3 items-center justify-center w-full h-fit inset-0 z-50 backdrop-blur-lg bg-transparent'>
            <li className='cursor-pointer'>
               <Link onClick={openClick}
               activeClass="active"

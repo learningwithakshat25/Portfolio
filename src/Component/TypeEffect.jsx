@@ -7,17 +7,7 @@ const TypeEffect = () => {
       sequence={[
         'FRONTEND DEVELOPER',
         2000,
-        'HTML',
-        2000,
-        'CSS',
-        2000,
-        'JAVA SCRIPT',
-        2000,
-        'BOOTSTRAP',
-        2000,
-        'TAILWIND CSS',
-        2000,
-        'REACT JS',
+        'REACT DEVELOPER',
         2000
       ]}
       wrapper="span"
