@@ -1,15 +1,26 @@
 [
     {
-        "id":1,
+        "id":2,
         "path": "/CERT_Akshat.pdf",
         "img": "/PDW.png",
-        "name": "CERT_Akshat.pdf"
+        "name": "PD_Workforce_Certificate.pdf"
     },
     {
-        "id": 2,
+        "id": 1,
+        "path": "/RRSAC_CERTIFICATE.pdf",
+        "img": "RSAC.png",
+        "name": "RSAC_Certificate.pdf"
+    },
+    {
+        "id": 3,
         "path": "/IBM.pdf",
         "img":"/IBMimg.png",
-        "name": "IBM_Akshat.pdf"
-
+        "name": "CSRBOX_IBM_Certificate.pdf"
+    },
+    {
+        "id":4,
+        "path": "NSDC_CERTIFICATE.pdf",
+        "img": "NSDC.png",
+        "name": "NSDC_Certificate.pdf"
     }
 ]

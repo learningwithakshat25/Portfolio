@@ -18,8 +18,15 @@ const Hero = () => {
       <div className="button flex flex-col gap-5 items-center justify-center">
       <button className='bg-[#27E0B3] active:bg-[#8bfcdf] dark:text-[#000000] p-3 rounded-md font-semibold px-5 text-lg shadow-black shadow hover:scale-105'><a download='Akshat_Mittal_Resume' href='/Akshat_Mittal_Resume.pdf'>Download Resume</a></button>
       <div className="links flex flex-row items-center justify-center gap-5">
+        <div className="linkdin relative group">
       <a target='blank' href="https://www.linkedin.com/in/akshatmittal2004/"><i class="fa-brands fa-linkedin text-3xl cursor-pointer relative"></i></a>
-      <a target='blank' href="https://github.com/learningwithakshat25"><i class="fa-brands fa-github text-3xl cursor-pointer"></i></a>
+      <p className='bg-[#27E0B3] mt-2 font-semibold text-black text-sm rounded-md p-1 w-fit h-fit absolute opacity-0 group-active:hover:opacity-100 group-hover:opacity-100 top-8 right-1'>Linkdin</p>
+        </div>
+        <div className="linkdin relative group">
+     <a target='blank' href="https://github.com/learningwithakshat25"><i class="fa-brands fa-github text-3xl cursor-pointer"></i></a>
+      <p className='bg-[#27E0B3] font-semibold mt-2 text-black text-sm rounded-md p-1 w-fit h-fit absolute opacity-0 group-active:hover:opacity-100 group-hover:opacity-100 top-8 left-2'>GitHub</p>
+        </div>
+      
       </div>
       </div>
     </div>
